@@ -7,3 +7,4 @@ console.log(`There are ${document.querySelectorAll('h2').length} <h2> elements!`
 document.querySelectorAll('h2').forEach(heading => {
   console.log(`Heading: "${heading.textContent}" is ${heading.offsetTop}px from the top of the document`)
 })
+

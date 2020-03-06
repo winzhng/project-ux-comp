@@ -5,6 +5,13 @@ body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
   font: 1em helvetica, sans-serif;
 }
+.d-block {
+  display: block;
+}
+
+.w-100{
+  width: 100%;
+}
 .accordionMenu {
   border: solid black;
   text-align: center;
