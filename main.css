@@ -1,0 +1,18 @@
+html, body {
+  height: 100%; /* Required to set the full page height */
+}
+body {
+  margin: 0; /* Required to remove extra buffer on the perimeter */
+  font: 1em helvetica, sans-serif;
+}
+.full {
+  padding: 1em;
+  min-height: 100%; /* Required for (at least) the full height */
+  background-color: tomato;
+}
+  .full:nth-child(even) {
+    /* Just here to alternate colours */
+    background-color: teal;
+  }
+
+/* Everything other than line 2, 5 and 10 are not required */
