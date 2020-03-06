@@ -5,6 +5,10 @@ body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
   font: 1em helvetica, sans-serif;
 }
+.accordionMenu {
+  border: solid black;
+  text-align: center;
+}
 .full {
   padding: 1em;
   min-height: 100%; /* Required for (at least) the full height */
