@@ -14,5 +14,7 @@ body {
     /* Just here to alternate colours */
     background-color: teal;
   }
-
+.carousel-item {
+  width: 100%;
+}
 /* Everything other than line 2, 5 and 10 are not required */
