@@ -14,15 +14,3 @@ document.querySelectorAll('h2').forEach(heading => {
   console.log(`Heading: "${heading.textContent}" is ${heading.offsetTop}px from the top of the document`)
 })
 
-$(document).ready(function(){
-  $(".prev-slide").click(function(){
-      $("#myCarousel").carousel('prev');
-  });
-});
-
-$(document).ready(function(){
-  $(".next-slide").click(function(){
-      $("#myCarousel").carousel('next');
-  });
-});
-
