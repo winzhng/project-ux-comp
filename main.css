@@ -21,6 +21,20 @@ h2{
   font-family: 'Nunito Sans', sans-serif;
   letter-spacing: 2px;
 }
+
+.ldpage{
+  width:100%;
+}
+.square{
+  background-color: aquamarine;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+.spin{
+  transform: rotate(2deg);
+}
+
 .nav_links li{
   text-align: center;
   display: inline-flex;
