@@ -9,6 +9,18 @@ h2{
   text-transform: uppercase;
   text-align: center;
 }
+.square{
+  background-color: aquamarine;
+  width: 8em;
+  height: 8em;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+.spin{
+  transform: rotate(90deg);
+}
+
 .nav_links li{
   text-align: center;
   display: inline-flex;
