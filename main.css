@@ -5,6 +5,15 @@ body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
   font-size: 1em;
 }
+
+.block{
+  width: 25em;
+  display: grid;
+  grid-gap: 5em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 1fr;
+}
+
 .page_nav_header{
   background-color: rgb(241, 240, 240);
 }
@@ -26,7 +35,7 @@ h2{
   width:100%;
 }
 .square{
-  background-color: aquamarine;
+  
   transform: rotate(0deg);
   transition: all 0.5s;
 }
@@ -37,7 +46,9 @@ h2{
 
 .nav_links li{
   text-align: center;
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-area: repeat(2 1fr);
 }
 .nav_link_button button{
     vertical-align: top;
@@ -45,8 +56,9 @@ h2{
     width: 150px;
     padding: 10px;
     cursor: pointer;
-    float: left;
+    float: center;
     justify-content: space-around;
+    margin-bottom: .5em;
 }
 .nav_link_button a{
   color: dimgray;
@@ -117,4 +129,5 @@ h2{
     padding: 0.25em;
     width: 3em;
 }
+
 /* Everything other than line 2, 5 and 10 are not required */
