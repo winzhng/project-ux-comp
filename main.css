@@ -5,6 +5,16 @@ body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
   font: 1em helvetica, sans-serif;
 }
+.square{
+  background-color: aquamarine;
+  width: 8em;
+  height: 8em;
+  transition: 
+}
+
+.square:hover{
+  transform: rotate(90deg);
+}
 .d-block {
   display: block;
 }
