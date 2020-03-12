@@ -3,7 +3,25 @@ html, body {
 }
 body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
-  font: 1em helvetica, sans-serif;
+  font-size: 1em;
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav_links li{
+  text-align: center;
+  display: inline-flex;
+}
+
+.nav_link_button button{
+    vertical-align: top;
+    background-color: rgb(241, 240, 240);
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    float: left;
+    justify-content: space-around;
 }
 .carousel-photo{
   display: block;
@@ -16,11 +34,11 @@ body {
 .full {
   padding: 1em;
   min-height: 100%; /* Required for (at least) the full height */
-  background-color: tomato;
+  background-color: rgb(235, 255, 255);
 }
-  .full:nth-child(even) {
+.full:nth-child(even) {
     /* Just here to alternate colours */
-    background-color: teal;
+    background-color: rgb(241, 240, 240);
   }
 .carousel-item {
   width: 1000px;
@@ -56,10 +74,19 @@ body {
   transition: 0.5s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  text-shadow: black;
+  text-shadow: #0000;
 }
   .next-photo {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
+  .extras li {
+    display: inline-block;
+    margin: 1em;
+    position: sticky;
+  }
+.social img{
+    padding: 0.25em;
+    width: 3em;
+}
 /* Everything other than line 2, 5 and 10 are not required */
