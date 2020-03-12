@@ -5,23 +5,37 @@ body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
   font-size: 1em;
 }
+.page_nav_header{
+  background-color: rgb(241, 240, 240);
+}
+.page_nav_header h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 4px;;
+}
 h2{
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 2px;
 }
 .nav_links li{
   text-align: center;
   display: inline-flex;
 }
-
 .nav_link_button button{
     vertical-align: top;
-    background-color: rgb(241, 240, 240);
-    width: 200px;
+    background-color: white;
+    width: 150px;
     padding: 10px;
     cursor: pointer;
     float: left;
     justify-content: space-around;
+}
+.nav_link_button a{
+  color: dimgray;
 }
 .carousel-photo{
   display: block;
