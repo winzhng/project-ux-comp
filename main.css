@@ -14,6 +14,10 @@ body {
   grid-template-areas: 1fr;
 }
 
+.small{
+  width: 15em;
+}
+
 .page_nav_header{
   background-color: rgb(241, 240, 240);
 }
