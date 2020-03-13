@@ -58,14 +58,8 @@ p{
 
 .nav_links li{
   text-align: center;
-<<<<<<< HEAD
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
-  grid-template-area: 1fr;
-=======
   display: inline-flex;
   vertical-align: center;
->>>>>>> c44e147a66843101700f0f541f1a4c60bda0ca40
 }
 .nav_link_button button{
     background-color: white;
