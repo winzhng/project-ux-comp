@@ -52,7 +52,7 @@ h2{
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2 1fr);
-  grid-template-area: repeat(2 1fr);
+  grid-template-area: 1fr;
 }
 .nav_link_button button{
     vertical-align: top;
