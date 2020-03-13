@@ -5,6 +5,19 @@ body {
   margin: 0; /* Required to remove extra buffer on the perimeter */
   font-size: 1em;
 }
+
+.block{
+  width: 25em;
+  display: grid;
+  grid-gap: 5em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 1fr;
+}
+
+.small{
+  width: 15em;
+}
+
 .page_nav_header{
   background-color: rgb(241, 240, 240);
 }
@@ -34,7 +47,7 @@ p{
   width:100%;
 }
 .square{
-  background-color: aquamarine;
+  
   transform: rotate(0deg);
   transition: all 0.5s;
 }
@@ -45,15 +58,26 @@ p{
 
 .nav_links li{
   text-align: center;
+<<<<<<< HEAD
   display: inline-flex;
   vertical-align: center;
+=======
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-area: repeat(2 1fr);
+>>>>>>> bd4ce62fd6518d9246eb26a99fcc4b9a236c091b
 }
 .nav_link_button button{
     background-color: white;
     width: 150px;
     padding: 10px;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    float: center;
+>>>>>>> bd4ce62fd6518d9246eb26a99fcc4b9a236c091b
     justify-content: space-around;
+    margin-bottom: .5em;
 }
 .nav_link_button a{
   color: dimgray;
@@ -146,4 +170,5 @@ p{
     padding: 0.25em;
     width: 3em;
 }
+
 /* Everything other than line 2, 5 and 10 are not required */
