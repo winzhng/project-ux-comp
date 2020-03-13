@@ -58,24 +58,15 @@ p{
 
 .nav_links li{
   text-align: center;
-<<<<<<< HEAD
   display: inline-flex;
   vertical-align: center;
-=======
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
-  grid-template-area: repeat(2 1fr);
->>>>>>> bd4ce62fd6518d9246eb26a99fcc4b9a236c091b
 }
 .nav_link_button button{
     background-color: white;
     width: 150px;
     padding: 10px;
     cursor: pointer;
-<<<<<<< HEAD
-=======
     float: center;
->>>>>>> bd4ce62fd6518d9246eb26a99fcc4b9a236c091b
     justify-content: space-around;
     margin-bottom: .5em;
 }
