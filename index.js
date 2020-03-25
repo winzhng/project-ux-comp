@@ -13,4 +13,3 @@ $sq.addEventListener('click', (event) => {
 document.querySelectorAll('h2').forEach(heading => {
   console.log(`Heading: "${heading.textContent}" is ${heading.offsetTop}px from the top of the document`)
 })
-
