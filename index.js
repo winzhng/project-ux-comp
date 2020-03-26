@@ -9,6 +9,8 @@ $sq.addEventListener('click', (event) => {
   $sq.classList.toggle('spin')
 });
 
+
+
 // If you wanted a list of them and their distance from the top of the document:
 document.querySelectorAll('h2').forEach(heading => {
   console.log(`Heading: "${heading.textContent}" is ${heading.offsetTop}px from the top of the document`)
