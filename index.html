@@ -19,12 +19,15 @@
               <li class="nav_link_button"><button><a href="">Contact</a></button></li>
             </ul>
         </nav>
-      </header>
+    </header>
+    <ul class="panel" id=panel>
+        <!-- Info about the state of the interface will go here --> 
+    </ul>
     <section class="full">
         <img src="img/ModbuildEDIT.jpg" alt="Modular" class="LDpage">
     </section>
     <section class="full">
-        <h2>Environmental Benefits</h2>
+        <h2 id="enviro">Environmental Benefits</h2>
         <p>Modules are constructed using recycled materials and renewable resources such as bamboo, as well as parts from other modules that are not currently being used, as they can be reused into different modules.  The modules produce a small amount of construction waste as they are made precisely to order.  There is also less onsite disturbance, making construction in sensitive areas possible, without damaging the ecosystem it’s in. We have implemented photovoltaic glass (PV glass) windows to reduce heating and cooling consumption. Solar panels are installed on the roof of the entire structure to generate energy to each module.</p>
       <section class="container">
         <section class="box1">
@@ -43,18 +46,44 @@
       </section>
     </section>
     <section class="full">
-        <h2>Labour and Materials</h2>
+        <h2 id="labour">Labour and Materials</h2>
             <p>Modular building provides labour and material benefits as well as being environmental friendly.  Modules are built off site, using precise construction techniques, ensuring that the exact amount of materials are used without waste.  Less concrete is used on site and the modules get set up quickly, keeping labour costs down by finishing building quickly.
             </p>
-            <section>
-                <h3 class="accordionMenu">Low material cost</h3>
-                <h3 class="accordionMenu">Less labour intensive</h3>
-                <h3 class="accordionMenu">Quick set-up</h3>
-            </section>
-        </section>
+            <section class="faq_container">
+              <div class="accordion">
+                <div class="acc_item" id="materials">
+                  <a class="acc_link" href="#materials">
+                    Cost Effective Materials
+                    <ion-icon name="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint quo exercitationem iusto distinctio impedit eaque ipsam? Commodi odit id et reiciendis nesciunt, aliquid corporis voluptate amet delectus ratione voluptas!</p>
+                  </div>
+                </div>
+                <div class="acc_item" id="lab_int">
+                  <a class="acc_link" href="#lab_int">
+                    Less Labour Intensive
+                    <ion-icon name="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint quo exercitationem iusto distinctio impedit eaque ipsam? Commodi odit id et reiciendis nesciunt, aliquid corporis voluptate amet delectus ratione voluptas!</p>
+                  </div>
+                </div>
+                <div class="acc_item" id="install">
+                  <a class="acc_link" href="#install">
+                    Installation Process
+                    <ion-icon name="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint quo exercitationem iusto distinctio impedit eaque ipsam? Commodi odit id et reiciendis nesciunt, aliquid corporis voluptate amet delectus ratione voluptas!</p>
+                  </div>
+                </div>
     </section>
     <section class="full">
-        <h2>Flexibility</h2>
+        <h2 id="flex">Flexibility</h2>
         <p>Modular building ensures flexibility whether it is moving it to a different site or having the freedom to design it however you want. The option to choose identical buildings or creating individual design concepts is decided by the owner or company. Vertical building is effective in a condensed city such as Toronto, but also beneficial to any city that is looking to expand their community vertically.</p>
         <div id="carouselSlides" class="carousel slide z-depth-1-half" data-ride="carousel">
             <div class="carousel-inner">
@@ -79,7 +108,7 @@
           </div>     
     </section>
     <section class="full">
-        <h2>Affordability</h2>
+        <h2 id="cost">Affordability</h2>
         <p>The inspiration of our design is based on the housing crisis in Toronto. Many people living in a metropolitan area struggle with affordable housing, often compromising their quality of living with reduced space as there's a high demand and lack of return on the market.</p>
         <p>Through research and obervations, we've found insights that affordability is a huge factor on construction and owning a property. By using sustainable and locally sourced materials, it will decrease our cost on equipment and supplies, while fulfilling the price range of a potential owner's expectations. </p>
     </section>
@@ -87,5 +116,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>
