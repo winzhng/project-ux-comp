@@ -1,69 +1,50 @@
 html, body {
   height: 100%; /* Required to set the full page height */
 }
-body {
-  margin: 0; /* Required to remove extra buffer on the perimeter */
-  font-size: 1em;
-}
-.page_nav_header, footer{
-  background-color: rgb(248, 248, 248);
-}
-.page_nav_header h2{
-  text-transform: uppercase;
+h1{
   text-align: center;
-  font-family: 'Fjalla One', sans-serif;
-  letter-spacing: 5px;
-  word-spacing: 4px;;
-  font-size: 3em;
-  color: dimgray;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
 }
 h2{
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
-  letter-spacing: 2px;
-  color: dimgray;
-}
-h3{
+margin-top: 80px;
+color: dimgray;
 text-align: center;
-font-family: 'Nunito Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 letter-spacing: 2px;
 }
 p{
-  margin: 10em;
+  margin: 100px;
   text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-.ldpage{
-  width:100%;
+.ldpage img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
 }
-.square{
-  transform: rotate(0deg);
-  transition: all 0.5s;
-}
-.spin{
-  transform: rotate(2deg);
-}
-.nav_links li{
+.ldpage .text{
+  font-size: 200px;
+  position: absolute;
+  z-index: 999;
+  margin: 15; 
+  margin-left: 70%;    
   text-align: center;
-  display: inline-flex;
+  top: 20%; /* Adjust this value to move text up or down */
+  width: 20%; 
 }
-.nav_link_button button{
-    background-color: white;
-    width: 150px;
-    padding: 10px;
-    cursor: pointer;
-    justify-content: space-around;
-    margin-bottom: .5em;
+.designQ{
+  margin: 100px 50px 100px 50px;
 }
-.nav_link_button a{
+.designQ h1{
   color: dimgray;
+  font-family: 'Josefin Sans', sans-serif;
 }
-.nav_link_button a:hover{
-  text-decoration: none;
-  color: dimgray;
+.designQ p{
+  margin: 50px 200px;
 }
-
 .panel {
   list-style: none;
   position: fixed;
@@ -87,6 +68,7 @@ p{
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
 }
 .container img{
   width: 250px;
@@ -99,9 +81,9 @@ p{
   width: 100%;
 }
 .faq_container ::before, ::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit; 
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
 }
 
 .faq_container{
@@ -117,7 +99,7 @@ p{
 }
 
 .acc_item{
-  background-color: gainsboro;
+  background-color: #eee;
   border-radius: .2rem;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -164,13 +146,16 @@ ion-icon{
 }
 
 .full {
-  padding: 1em;
+  padding-top: 4em;
   min-height: 100%; /* Required for (at least) the full height */
-  background-color: #f0fff3;
+  background-color: rgb(248, 248, 248);
+}
+.full p{
+  margin: 50px 250px;
 }
 .full:nth-child(even) {
     /* Just here to alternate colours */
-    background-color: rgb(248, 248, 248);
+    background-color: white;
   }
 .carousel-item {
   width: 1000px;
