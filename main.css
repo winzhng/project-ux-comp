@@ -15,7 +15,7 @@ font-family: 'Josefin Sans', sans-serif;
 letter-spacing: 2px;
 }
 p{
-  margin: 100px;
+  margin: 80px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -32,7 +32,7 @@ p{
   margin: 15; 
   margin-left: 70%;    
   text-align: center;
-  top: 20%; /* Adjust this value to move text up or down */
+  top: 10%; /* Adjust this value to move text up or down */
   width: 20%; 
 }
 .designQ{
@@ -45,18 +45,20 @@ p{
 .designQ p{
   margin: 50px 200px;
 }
-.panel {
+.panel{
   list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
   position: fixed;
 	top: 1em;
 	left: 1em;
 	background-color: #eee;
-	padding: 1em;
+  padding: 1em;
+  border-radius: .2rem;
 	box-shadow: 0 0 1em rgba(0,0,0,0.1);
 }
 .panel a:hover{
   text-decoration: none;
-  color: dimgray;
+  color: cadetblue;
 }
 .panel_item{
   color: dimgray;
@@ -65,29 +67,22 @@ p{
   margin-left: 2em;
   color: dimgray;
 }
-.container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-}
-.container img{
-  width: 250px;
-}
-.box1, .box2, .box3{
+.gallery li{
+  list-style: none;
   text-align: center;
 }
-.carousel-photo{
-  display: block;
-  width: 100%;
+.gallery img{
+  width: 300px;
+  padding: 10px;
 }
+
 .faq_container ::before, ::after{
   margin: 0;
   padding: 0;
   box-sizing: inherit; 
 }
-
 .faq_container{
-  font-family:'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -117,7 +112,9 @@ p{
 }
 .acc_link:hover{
   text-decoration: none;
+  color: dimgray;
 }
+
 ion-icon{
   display: none;
 }
@@ -148,15 +145,23 @@ ion-icon{
 .full {
   padding-top: 4em;
   min-height: 100%; /* Required for (at least) the full height */
-  background-color: rgb(248, 248, 248);
 }
 .full p{
-  margin: 50px 250px;
+  margin: 50px 100px;
 }
-.full:nth-child(even) {
-    /* Just here to alternate colours */
-    background-color: white;
-  }
+
+.aff{
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.carousel-photo{
+  display: block;
+  width: 100%;
+}
+
 .carousel-item {
   width: 1000px;
   height: 600px;
@@ -184,16 +189,49 @@ ion-icon{
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
-  color: white;
+  padding: 14px;
   font-weight: bold;
   font-size: 20px;
+  background-color: cadetblue;
+  opacity: 40%;
   transition: 0.5s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 2px 2px 0;
   user-select: none;
-  text-shadow: #0000;
+  box-shadow: .5rem 2px .5rem rgba(0,0,0,0.1);
+
 }
-.next-photo {
+.next-photo{
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+footer {
+  background-color: #eee;
+  color: dimgray;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1em;
+  position: relative;
+}
+@media screen and (min-width: 400px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+@media screen and (min-width: 850px) {
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (min-width: 1500px) {
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen{
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
