@@ -111,26 +111,24 @@ let theStateOfTheInterface = (event) => {
       </section>
       <section class="full">
         <h2 id="cost">Affordability</h2>
-        <p>The inspiration of our design is based on the housing crisis in Toronto. Many people living in a metropolitan area struggle with affordable housing, often compromising their quality of living with reduced space as there's a high demand and lack of return on the market.</p>
-        <p>Through research and obervations, we've found insights that affordability is a huge factor on construction and owning a property. By using sustainable and locally sourced materials, it will decrease our cost on equipment and supplies, while fulfilling the price range of a potential owner's expectations. </p>
-        <img class="aff" src="img/house.jpg">
+        <p>The inspiration of our design is based on the housing crisis in Toronto. Many people living in a metropolitan area struggle with affordable housing, often compromising their quality of living with reduced space as there's a high demand and lack of return on the market.</p>        <img class="aff" src="img/house.jpg">
       </section>
       `
   }
 
+
   //scrollspy
-  document.querySelector('.panel').innerHTML = `
-    <ul class="panel" id="panel_nav">
-      <li><a class="panel_item" href="#design"><strong>About</strong></a></li>
-      <li><a class="panel_item" href="#enviro"><strong>Environmental Benefits</strong></a></li>
-      <li><a class="panel_item" href="#labour"><strong>Labour and Materials</strong></a></li>
-      <li><a class="panel_faq" href="#materials">Cost Effective Materials</a></li>
-      <li><a class="panel_faq" href="#lab_int">Less Labour Intensive</a></li>
-      <li><a class="panel_faq" href="#install">Installation Process</a></li>
-      <li><a class="panel_item" href="#flex"><strong>Flexibility</strong></a></li>
-      <li><a class="panel_item" href="#cost"><strong>Affordability</strong></a></li>
-    </ul>
-  `
+document.querySelector('.panel').innerHTML = `
+  <ul class="panel" id="panel_nav">
+    <li><a class="panel_item" href="#design"><strong>About</strong></a></li>
+    <li><a class="panel_item" href="#enviro"><strong>Environmental Benefits</strong></a></li>
+    <li><a class="panel_item" href="#labour"><strong>Labour and Materials</strong></a></li>
+    <li><a class="panel_faq" href="#lab_int">Less Labour Intensive</a></li>
+    <li><a class="panel_faq" href="#install">Installation Process</a></li>
+    <li><a class="panel_item" href="#flex"><strong>Flexibility</strong></a></li>
+    <li><a class="panel_item" href="#cost"><strong>Affordability</strong></a></li>
+  </ul>
+`
 
 }
 window.addEventListener('load', theStateOfTheInterface)
